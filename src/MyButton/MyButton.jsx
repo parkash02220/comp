@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Box, Button, CircularProgress } from "@mui/material";
-import "./MyButton.style.css";
 export default function MyButton({
   children,
   color = "white",

@@ -14,7 +14,6 @@ var _Switch = _interopRequireDefault(require("@mui/material/Switch"));
 var _FormHelperText = _interopRequireDefault(require("@mui/material/FormHelperText"));
 var _styles = require("@mui/material/styles");
 var _material = require("@mui/material");
-require("./MySwitch.style.css");
 var _excluded = ["checked", "onChange", "label", "labelPlacement", "disabled", "size", "helperText", "error", "switchStyle", "labelStyle", "boxStyle", "formGroupStyle", "className", "trackBgColor", "checkedTrackBgColor", "fontSize", "fontWeight", "labelColor", "required", "requiredColor", "loading", "startIcon", "endIcon", "loadingIndicator"];
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }

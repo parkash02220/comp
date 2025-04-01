@@ -7,7 +7,6 @@ import Switch from "@mui/material/Switch";
 import FormHelperText from "@mui/material/FormHelperText";
 import { styled } from "@mui/material/styles";
 import { CircularProgress } from "@mui/material";
-import "./MySwitch.style.css";
 const IOSSwitch = styled((props) => (
   <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
 ))(({ trackbgcolor, checkedtrackbgcolor, size, disabled }) => ({

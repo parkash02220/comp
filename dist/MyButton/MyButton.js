@@ -8,7 +8,6 @@ exports["default"] = MyButton;
 var _react = _interopRequireDefault(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _material = require("@mui/material");
-require("./MyButton.style.css");
 var _excluded = ["children", "color", "variant", "size", "fullWidth", "disabled", "startIcon", "endIcon", "onClick", "href", "type", "loading", "loadingText", "fontSize", "width", "minWidth", "borderRadius", "textTransform", "padding", "margin", "boxShadow", "loadingIndicator", "className", "hoverBgColor", "activeBgColor", "backgroundColor", "fontWeight", "disabledBgColor", "disabledTextColor", "iconOnly", "sx"];
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
